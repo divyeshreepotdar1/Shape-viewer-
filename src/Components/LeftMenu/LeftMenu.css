@@ -1,0 +1,123 @@
+/* Left Menu container */
+.left-menu {
+  width: 100%;
+  max-width: 320px; /* Limit max width to prevent overflow */
+  background-color: #f9f9f9;
+  padding: 20px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  font-family: 'Arial', sans-serif;
+  box-sizing: border-box;
+}
+
+/* Left Menu heading */
+.left-menu h2 {
+  color: #333;
+  font-size: 20px;
+  margin-bottom: 25px;
+  text-align: center;
+  font-weight: bold;
+}
+
+/* Form Styling */
+.left-menu form {
+  background-color: #fff;
+  padding: 35px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  gap: 16px; /* Add spacing between form elements */
+}
+
+/* Label styling */
+.left-menu form label {
+  font-size: 14px;
+  color: #555;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+/* Input field styling */
+.left-menu form input,
+.left-menu form select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+  color: #333;
+  transition: all 0.3s ease-in-out;
+}
+
+/* Input focus state */
+.left-menu form input:focus,
+.left-menu form select:focus {
+  border-color: #007BFF;
+  outline: none;
+  box-shadow: 0 0 6px rgba(0, 123, 255, 0.2);
+}
+
+/* Styling for color picker input */
+#shapeColor {
+  border: none;
+  height: 40px;
+  width: 50%;
+  background: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+#shapeColor::-webkit-color-swatch {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 3px;
+  background-color: transparent;
+}
+
+#shapeColor::-webkit-color-swatch-wrapper {
+  padding: 0;
+}
+
+/* Submit button */
+.left-menu form button[type="submit"] {
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 6px;
+  font-size: 14px;
+  width: 100%;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.left-menu form button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+/* Responsive styling */
+@media (max-width: 600px) {
+  .left-menu {
+    padding: 20px;
+  }
+
+  .left-menu form {
+    padding: 15px;
+  }
+
+  .left-menu form label {
+    font-size: 13px;
+  }
+
+  .left-menu form input,
+  .left-menu form select {
+    font-size: 13px;
+  }
+
+  .left-menu form button[type="submit"] {
+    font-size: 14px;
+  }
+}

@@ -1,0 +1,8 @@
+Polygon,100,100,5,110,140 140,130 150,150 120,170 110,180,ff5733;
+Polygon,200,150,4,250,200 270,180 290,170 270,220,ffff00;
+Rectangle,100,100,0,60,80,ff9900 // Rectangle 1;
+Rectangle,570,200,1,100,100,00ccff // Rectangle 2;
+Rectangle,500,300,0,50,50,00ffcc // Rectangle 3;
+Rectangle,600,50,0,40,60,ff6600 // Rectangle 4;
+Circle,400,400,undefined,50,undefined,0;
+Polygon,450,350,5,500,400 530,380 550,400 530,420 500,410,ff66ff;

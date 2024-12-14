@@ -1,0 +1,69 @@
+/* Basic styling for the toolbar */
+.toolbar {
+  display: flex;
+  align-items: center; /* Centering the items vertically */
+  padding: 10px;
+  background-color: #f4f4f4;
+  border-bottom: 1px solid #ccc;
+}
+
+.app-name {
+  font-size: 20px;
+  font-weight: bold;
+  margin-right: 400px; /* Adds some space between the app name and the file input */
+}
+
+.file-name {
+  font-size: 16px;
+  font-weight: bold;
+  margin-right: 250px; /* Space between file name and other buttons */
+  color: #007bff;
+}
+
+.open-file-button {
+  padding: 5px 15px;
+  border: none;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  margin-right: 250px;
+  border-radius: 3px;
+  transition: background-color 0.3s ease;
+}
+
+.open-file-button:hover {
+  background-color: #0056b3;
+}
+
+.file-input {
+  display: none; /* Hide the file input */
+}
+
+button {
+  padding: 5px 10px;
+  border: none;
+  margin-right: 10px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 3px;
+  transition: background-color 0.3s ease; /* Smooth transition for hover */
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+button.active {
+  background-color: red; /* Change color when delete mode is active */
+  color: white;
+  font-weight: bold; /* Add bold text for visibility */
+}
+
+button.active:hover {
+  background-color: darkred; /* Darker red on hover when active */
+}
+
+button:focus {
+  outline: none; /* Remove focus outline for a cleaner look */
+}

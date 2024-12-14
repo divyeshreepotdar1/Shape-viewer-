@@ -1,0 +1,11 @@
+Polygon,100,100,5,110,140 140,130 150,150 120,170 110,180,ff5733;
+Polygon,200,150,4,362,414 382,394 402,384 382,434,ffff00;
+Rectangle,116,305,0,60,80,ff9900 // Rectangle 1;
+Rectangle,100,271,1,100,100,00ccff // Rectangle 2;
+Rectangle,666,426,0,50,50,00ffcc // Rectangle 3;
+Rectangle,384,200,0,40,60,ff6600 // Rectangle 4;
+Circle,250,250,undefined,50,undefined,0;
+Circle,400,400,undefined,50,undefined,0;
+Circle,600,100,undefined,50,undefined,0;
+Polygon,450,350,5,766,403 796,383 816,403 796,423 766,413,ff66ff;
+Polygon,350,100,6,704.0000000000001,292 724.0000000000001,322 754,322 784,302 774,282 734.0000000000001,262,ff3300;

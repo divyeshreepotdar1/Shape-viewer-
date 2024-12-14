@@ -1,0 +1,23 @@
+.app-wrapper {
+  display: grid;
+  grid-template-rows: auto 1fr; /* Toolbar at the top, main content below */
+  grid-template-columns: 250px 1fr; /* Sidebar and viewport */
+  grid-template-areas:
+    "toolbar toolbar"
+    "menu viewport";
+  height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.toolbar {
+  grid-area: toolbar;
+}
+
+.left-menu {
+  grid-area: menu;
+}
+
+.shape-viewport {
+  grid-area: viewport;
+}
